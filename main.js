@@ -10,7 +10,7 @@ const gltfLoader = new GLTFLoader();
 let loadedModel = null;
 
 gltfLoader.load(
-    'models/sci_-_fi_buggy.glb',
+    'https://skfb.ly/oXNRX',
     (gltf) => {
         loadedModel = gltf.scene;
         scene.add(loadedModel);
