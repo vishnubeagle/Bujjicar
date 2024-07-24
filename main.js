@@ -10,7 +10,7 @@ const gltfLoader = new GLTFLoader();
 let loadedModel = null;
 
 gltfLoader.load(
-    'https://sketchfab.com/models/7a7d11aadbe348af968cd56834d9532a/embed',
+    '/models/sci_-_fi_buggy.glb',
     (gltf) => {
         loadedModel = gltf.scene;
         scene.add(loadedModel);
