@@ -10,7 +10,7 @@ const gltfLoader = new GLTFLoader();
 let loadedModel = null;
 
 gltfLoader.load(
-    'https://skfb.ly/oXNRX',
+    'https://sketchfab.com/models/7a7d11aadbe348af968cd56834d9532a/embed',
     (gltf) => {
         loadedModel = gltf.scene;
         scene.add(loadedModel);
